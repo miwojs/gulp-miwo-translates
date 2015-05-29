@@ -1,6 +1,6 @@
 {
   "name": "gulp-miwo-translates",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Compile miwo translates from src to dist directory",
   "keywords": [
     "miwo translates gulp plugin"
@@ -11,7 +11,7 @@
   "dependencies": {
     "gulp-util": "~3.0.1",
     "path": "^0.11.14",
-    "through2": "~0.6.3"
+    "through": "^2.3.7"
   },
   "license": "MIT",
   "repository": {
