@@ -1,0 +1,13 @@
+{
+  "name": "gulp-miwo-translates",
+  "version": "0.0.1",
+  "description": "Compile miwo translates from src to dist directory",
+  "keywords": [
+    "miwo translates gulp plugin"
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "through2": "~0.6.3",
+    "gulp-util": "~3.0.1"
+  }
+}
