@@ -5,9 +5,22 @@
   "keywords": [
     "miwo translates gulp plugin"
   ],
+  "contributors": [
+    {
+      "name": "Dušan Kmeť",
+      "email": "dkmorlok@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/miwojs/gulp-miwo-translates",
   "main": "./index.js",
   "dependencies": {
-    "through2": "~0.6.3",
-    "gulp-util": "~3.0.1"
+    "gulp-util": "~3.0.1",
+    "path": "^0.11.14",
+    "through2": "~0.6.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miwojs/gulp-miwo-translates.git"
   }
 }
