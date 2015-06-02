@@ -6,7 +6,7 @@ var gutil = require('gulp-util');
 const PLUGIN_NAME = 'gulp-miwo-translates';
 
 // define main
-function gulpMiwoTranslates(opt) {	
+function gulpMiwoTranslates(opt) {
 	if (!opt) opt = {};
 
 	var langFiles = {};
@@ -19,6 +19,7 @@ function gulpMiwoTranslates(opt) {
 		var fileName = path.basename(file.path, '.json');
 		var section = path.dirname(file.path);
 		section = section.replace(path.dirname(section)+'/', '');
+		section = section.split(path.sep).slice(-1)[0];
 
 		if (!langFiles[fileName]) {
 			langFiles[fileName] = file;
